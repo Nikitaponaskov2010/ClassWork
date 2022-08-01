@@ -1,4 +1,4 @@
-package KW210722;
+package kw2107;
 
 public class Task2 {
     public static void main(String[] args) {

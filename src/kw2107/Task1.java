@@ -1,4 +1,4 @@
-package KW210722;
+package kw2107;
 
 
 import java.util.Scanner;
