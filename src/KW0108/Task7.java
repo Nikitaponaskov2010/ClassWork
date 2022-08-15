@@ -1,18 +1,21 @@
 package KW0108;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Task7 {
     public static void main(String[] args) {
-        System.out.println("Input string");
+     /*   System.out.println("Input string");
         Scanner sc = new Scanner(System.in);
         String a = sc.nextLine();
         char[] chars = a.toCharArray();
         Task7 obj = new Task7();
         obj.repArray(chars);
         obj.changeNumberTo(chars);
-        obj.showArray(chars);
-
+        obj.showArray(chars);*/
     }
 
     public void repArray(char[] chars) {
@@ -43,9 +46,5 @@ public class Task7 {
 
         }
     }
-
-
-
-
 
 }
