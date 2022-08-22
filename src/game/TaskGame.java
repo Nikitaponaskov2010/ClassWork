@@ -1,8 +1,5 @@
 package game;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class TaskGame {
 
@@ -11,9 +8,16 @@ public class TaskGame {
     public static void main(String[] args) {
         TaskGame game = new TaskGame();
         Task1map map = new Task1map();
+        TaskContr ctr = new TaskContr();
         game.createMap(map);
         game.addStone(map);
-        game.displayMap(map);
+
+        map.addPlayer(9,0);
+        map.displayMap();
+        while (map.x != 0 || map.y != 9 ) {
+            ctr.moveVersion(map);
+
+        }
 
 
     }
@@ -30,18 +34,10 @@ public class TaskGame {
         return map.map;
     }
 
-    public void displayMap(Task1map map) {
-        for (int i = 0; i < map.map.length; i++) {
-            for (int j = 0; j < map.map[i].length; j++) {
-                System.out.print(map.map [i] [j] + " ");
-
-            }
-            System.out.println();
-
-        }
 
 
-    }
+
+
     public void addStone(Task1map map) {
         for (int i = 0; i < map.map.length; i++) {
             for (int j = 0; j < map.map[i].length; j++) {
