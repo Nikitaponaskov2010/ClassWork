@@ -1,5 +1,7 @@
 package class_work.classwork_290822.task2;
 
+import classwork_290822.task2.Scanner;
+
 import java.util.Scanner;
 
 public class City {
