@@ -1,6 +1,6 @@
 package classwork_290822.task1_3;
 
-import classwork_290822.task1_2.Person;
+import classwork_290822.task1_2.Human;
 
 import java.util.ArrayList;
 
@@ -11,7 +11,7 @@ public class City {
     private int countOfPeople;
     private int postalCode;
     private int phoneCode;
-    private ArrayList<Person> people;
+    private ArrayList<Human> people;
 
     public City(String nameOfCity) {
         this.nameOfCity = nameOfCity;
@@ -23,12 +23,12 @@ public class City {
         this.country = country;
     }
 
-    public City(String nameOfCity, String region, String country, int countOfPeople, int postalCode, int phoneCode, ArrayList<Person> people) {
+    public City(String nameOfCity, String region, String country, int countOfPeople, int postalCode, int phoneCode, ArrayList<Human> people) {
         this(nameOfCity, region, country);
         this.countOfPeople = countOfPeople;
         this.postalCode = postalCode;
         this.phoneCode = phoneCode;
-        this.people = people;
+
     }
 
     @Override

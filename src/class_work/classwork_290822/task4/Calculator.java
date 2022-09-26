@@ -1,7 +1,7 @@
-package class_work.classwork_290822.task4;
+package classwork_290822.task4;
 
 
-import classwork_290822.task2.Scanner;
+import java.util.Scanner;
 
 public class Calculator  {
     private double x;
@@ -15,7 +15,7 @@ public class Calculator  {
 
     public void setX() {
         System.out.println("Input first number");
-        this.x = scanner.nextDoudle();
+        this.x = scanner.nextDouble();
     }
 
     public double getY() {

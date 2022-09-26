@@ -1,7 +1,7 @@
 package CW0108;
 
 import KW0108.StringTask4;
-import classwork_290822.task2.Scanner;
+import classwork_290822.task2.City;
 
 import java.util.Scanner;
 
