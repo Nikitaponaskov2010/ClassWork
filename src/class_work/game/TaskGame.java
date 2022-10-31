@@ -1,4 +1,4 @@
-package game;
+package class_work.game;
 
 
 public class TaskGame {
@@ -7,7 +7,7 @@ public class TaskGame {
 
     public static void main(String[] args) {
         TaskGame game = new TaskGame();
-        Task1map map = new Task1map();
+        Task1map = new Task1map();
         TaskContr ctr = new TaskContr();
         game.createMap(map);
         game.addStone(map);

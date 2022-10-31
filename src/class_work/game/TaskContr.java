@@ -1,11 +1,11 @@
-package game;
+package class_work.game;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class TaskContr {
     int direction = 0;
-    public void moveVersion ( Task1map map) {
+    public void moveVersion ( TaskGame map) {
        int move = getDirection();
        switch (move) {
            case (4): {
