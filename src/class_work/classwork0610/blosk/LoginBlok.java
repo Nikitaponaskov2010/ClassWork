@@ -1,4 +1,4 @@
-package classwork0610.blosk;
+package blosk;
 
 import classwork0610.elements.CancelButton;
 import classwork0610.elements.CloseButton;

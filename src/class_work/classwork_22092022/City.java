@@ -1,5 +1,4 @@
-package classwork_22092022.Task1;
-
+package class_work.classwork_22092022;
 
 import java.util.Objects;
 

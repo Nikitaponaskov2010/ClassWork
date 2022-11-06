@@ -25,9 +25,9 @@ public class CollectionsFramework {
         }
    }
 
-      public int getMenuPoint(){
+      public Scanner getMenuPoint(){
           System.out.print("Введите пунк меню: ");
-          return new Scaner(System.in);
+          return new Scanner (System.in);
 
       }
 

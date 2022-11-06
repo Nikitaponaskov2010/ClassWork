@@ -1,7 +1,4 @@
-package classwork_22092022.Task3;
-
-import classwork_22092022.Task1.City;
-import classwork_22092022.Task2.Country;
+package class_work.classwork_22092022;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,4 +31,5 @@ public class Main {
         System.out.println(russia.toString());
         System.out.println(ispania.toString());
     }
+
 }

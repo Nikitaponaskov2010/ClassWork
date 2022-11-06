@@ -5,4 +5,9 @@ package classwork0310_2;
         public void assembly();
 
 
+        void autoTransmission();
+
+        void av();
+
+        void headlights();
     }

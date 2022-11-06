@@ -1,4 +1,4 @@
-package classwork0610.elements;
+package elements;
 
 public class CancelButton {
     public int getNumberOf () {

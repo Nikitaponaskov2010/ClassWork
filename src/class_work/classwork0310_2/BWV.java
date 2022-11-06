@@ -7,7 +7,6 @@ public class BWV implements Car {
     public void assembly () {
         System.out.println("Сборка автомобиля" + name);
     }
-
     @Override
     public void autoTransmission() {
         System.out.println("Коробка передач автомат" + name);
@@ -17,9 +16,9 @@ public class BWV implements Car {
         System.out.println("Тормоз работает" + name);
     }
 
-    @Override
-    public void headlights() {
+    @Override public void headlights() {
         System.out.println("Фары работают " + name);
     }
+
     }
 

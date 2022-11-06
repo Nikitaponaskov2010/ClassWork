@@ -10,6 +10,11 @@ public class Mercedes implements Car {
 
     @Override
     public void autoTransmission() {
+
+    }
+
+    @Override
+    public void av() {
         System.out.println("Каробка передач механическая! " + name);
     }
 
@@ -23,4 +28,8 @@ public class Mercedes implements Car {
         System.out.println("Фары не работают! " + name);
     }
 
+    @Override
+    public void beep() {
+
+    }
 }
