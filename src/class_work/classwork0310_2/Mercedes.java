@@ -8,15 +8,14 @@ public class Mercedes implements Car {
         System.out.println("Сборка автомобиля! " + name);
     }
 
-    @Override
-    public void autoTransmission() {
 
-    }
 
     @Override
-    public void av() {
+    public void Transmission() {
         System.out.println("Каробка передач механическая! " + name);
+
     }
+
 
     @Override
     public void brake() {

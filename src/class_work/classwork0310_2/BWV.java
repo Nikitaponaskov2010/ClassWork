@@ -7,10 +7,12 @@ public class BWV implements Car {
     public void assembly () {
         System.out.println("Сборка автомобиля" + name);
     }
+
     @Override
-    public void autoTransmission() {
-        System.out.println("Коробка передач автомат" + name);
+    public void Transmission() {
+        System.out.println("Каробка передач механическая! " + name);
     }
+
     @Override
     public void brake() {
         System.out.println("Тормоз работает" + name);

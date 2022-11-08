@@ -1,35 +1,50 @@
-package class_work.class_work311022;
+package class_work311022;
 
 
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Task1ArrayList {
 
-    List<Integer> arrayList = new ArrayList<>();
-
 
         public static void main(String[] args) {
+            List<Integer> arrayList = new ArrayList<>();
             Task1ArrayList arr = new Task1ArrayList();
-            arr.createdArrayList();
-            arr. ();
-            arr.addedNewNumber();
-            System.out.println();
-            arr.watchedArrayList();
-        }
-
-            public void createdArrayList()   {
             arrayList.add(10);
             arrayList.add(5);
             arrayList.add(10);
             arrayList.add(15);
             arrayList.add(null);
-             showArray(arrayList);
+            showArray(arrayList);
+
+            showArray(arrayList);
+            sum(arrayList);
+
+            arrayList.add(2, 8);
+            showArray(arrayList);
+            sum(arrayList);
+
+            List <Integer> list2 = new LinkedList<>();
+            list2.add(9);
+            list2.add(null);
+            list2.add(9);
+
+            showArray(list2);
+            sum(list2);
+
+            list2.add(9,7);
+            showArray(list2);
+            sum(list2);
+
+            Set<Integer> set1 = new HashSet<>();
+            set1.add(22);
+            set1.add(22);
+            showSet(set1);
 
 
-    }
-    public static  <E> void showArray (List<E> list){
+        }
+
+        public static  <E> void showArray (List<E> list){
         for (E val : list) {
             System.out.println(val);
         }
@@ -45,5 +60,10 @@ public class Task1ArrayList {
         }
         System.out.println("Сумма допустимых чисел = " + sum);
         System.out.println();
+    }
+    public static void showSet(Set <Integer> set1) {
+        for (Integer s : set1) {
+            System.out.println(s);
+        }
     }
     }

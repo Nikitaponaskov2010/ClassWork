@@ -1,4 +1,4 @@
-package class_work.class_work271022;
+package class_work271022;
 
 import java.util.ArrayList;
 import java.util.List;

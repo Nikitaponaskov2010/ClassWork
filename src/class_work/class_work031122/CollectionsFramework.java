@@ -1,4 +1,4 @@
-package class_work.class_work031122;
+package class_work031122;
 
 import java.util.*;
 

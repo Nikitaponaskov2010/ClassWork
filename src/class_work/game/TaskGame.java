@@ -1,4 +1,4 @@
-package class_work.game;
+package game;
 
 
 public class TaskGame {

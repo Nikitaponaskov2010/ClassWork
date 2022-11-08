@@ -1,4 +1,4 @@
-package class_work.classwork_22092022;
+package classwork_22092022;
 
 public class Main {
     public static void main(String[] args) {
