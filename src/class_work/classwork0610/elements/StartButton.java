@@ -1,9 +1,7 @@
 package classwork0610.elements;
 
-public class CloseButton {
-
-    public void sayOK () {
+public class StartButton {
+    public void getNumberOf() {
         System.out.println("OK");
     }
-
 }

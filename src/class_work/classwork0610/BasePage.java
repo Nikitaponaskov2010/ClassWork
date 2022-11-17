@@ -1,6 +1,5 @@
 package classwork0610;
 
-public class ParolPage {
-
+public class BasePage  {
 
 }
